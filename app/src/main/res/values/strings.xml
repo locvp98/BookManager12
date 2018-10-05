@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BookManager</string>
+    <string name="tentaikhoan">Usename</string>
+    <string name="matkhau">Password</string>
+    <string name="dangnhap">Login</string>
+    <string name="dangki">Register</string>
+    <string name="quenmatkhau">Forgot password</string>
+
+    <string name="noi">the usename is not valid</string>
+    <string name="loi">Invalid password</string>
+    <string name="hoidangki">You already have an account? </string>
+    <string name="loitkdk">You have not entered an account</string>
+    <string name="loidkmk">Password can not be blank</string>
+
+    <string name="title_activity_man_chinh">ManChinhActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="Overview">Overview</string>
+    <string name="Bill">Bill</string>
+    <string name="books">Add books</string>
+    <string name="menu">Menu</string>
+
+    <string name="Account">Account</string>
+    <string name="Doimatkhau">Change Password</string>
+    <string name="theloai">Categories</string>
+    <string name="sach">Books</string>
+    <string name="sachban">Selling books</string>
+    <string name="thongke">Statistics</string>
+    <string name="danhmuc">Catalog</string>
+    <string name="caidat">Settings</string>
+    <string name="ngonngu">Language</string>
+    <string name="trogiup">Help</string>
+    <string name="dangxuat">Log out</string>
+    <string name="themsach">Add books</string>
+    <string name="mahoadon">Code Bill</string>
+    <string name="lich">Today_16/9/2018</string>
+    <string name="giaban">Price</string>
+    <string name="tien">0 USD</string>
+    <string name="xacnhan">Confirm</string>
+    <string name="masach">Book code</string>
+    <string name="tensach">book name</string>
+    <string name="tacgia">Author</string>
+    <string name="soluong">Number</string>
+    <string name="hienthi">Show</string>
+    <string name="tongquan">Statistics</string>
+    <string name="tongtien">Total proceeds</string>
+    <string name="tongsosachban">Number of books sold</string>
+
+    <string name="tienchi">Total money spent</string>
+    <string name="dulieu">Data not available</string>
+    <string name="chuanhapma">No code entered</string>
+    <string name="chuanhapgia">you have not entered the price</string>
+    <string name="khongduocdetrong">Not be empty</string>
+    <string name="xuathoadon">Bills that have been exported</string>
+    <string name="Themtheloai">Add category</string>
+    <string name="matheloai">Code category</string>
+    <string name="tentheloai">Category name</string>
+    <string name="vitritheloai">Location</string>
+    <string name="mota">Describe</string>
+    <string name="huy">Cancel</string>
+    <string name="sachbanchaynhat">Best selling books</string>
+    <string name="chonngonngu">Select language</string>
+    <string name="nguoidung">User</string>
+    <string name="nhaclaimatkhau">Repeat password</string>
+    <string name="sodienthoai">Phone Number</string>
+    <string name="hovaten">First and last name</string>
+    <string name="thongbaotrungmk">passwords do not match</string>
+    <string name="Capnhap">Update</string>
+
+    <!--Tiếp theo-->
+
+</resources>

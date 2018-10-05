@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.bookmanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ManChaoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DangNhapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".DangKiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".giaodienchinh.ManChinhActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".catalog.TheloaiActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".catalog.SachBanAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".catalog.HoaDonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".catalog.ActSach"
+            android:label="Sach"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".catalog.ThongkeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".setting.NgonNguActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".setting.TroGiupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity
+            android:name=".account.DoiTaiKhoanActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Khong" />
+        <activity android:name=".account.ThemtaikhoaiActivity" />
+        <activity android:name=".account.HoaDonChiTietACT"
+            android:theme="@style/AppTheme"
+            android:label="Hóa Đơn Chi Tiết"
+            ></activity>
+    </application>
+
+</manifest>

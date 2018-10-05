@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookManager</string>
+    <string name="tentaikhoan">Tên Tài Khoản</string>
+    <string name="matkhau">Mật Khẩu</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="dangki">Đăng Kí</string>
+    <string name="quenmatkhau">Quên Mật Khẩu</string>
+
+    <string name="noi">Tên tài khoản không hợp lệ</string>
+    <string name="loi">Tên mật khẩu không hợp lệ</string>
+    <string name="hoidangki">Bạn Đã Có Tài Khoản? </string>
+    <string name="loitkdk">Bạn chưa nhập tài khoản</string>
+    <string name="loidkmk">Bạn chưa nhập mật khẩu</string>
+
+    <string name="title_activity_man_chinh">ManChinhActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="Overview">Tổng Quan</string>
+    <string name="Bill">Hóa Đơn</string>
+    <string name="books">Thêm Sách</string>
+    <string name="menu">Danh Mục</string>
+
+    <string name="Account">Tài Khoản</string>
+    <string name="Doimatkhau">Đổi mật khẩu</string>
+    <string name="theloai">Thể loại</string>
+    <string name="sach">Sách</string>
+    <string name="sachban">Sách Bán</string>
+    <string name="thongke">Thống Kê</string>
+    <string name="danhmuc">Danh Mục</string>
+    <string name="caidat">Cài Đặt</string>
+    <string name="ngonngu">Ngôn Ngữ</string>
+    <string name="trogiup">Trợ Giúp</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="themsach">Thêm Sách</string>
+    <string name="mahoadon">Mã hóa đơn</string>
+    <string name="lich">Hôm nay_16/9/2018</string>
+    <string name="giaban">Giá</string>
+    <string name="tien">0 VNĐ</string>
+    <string name="xacnhan">Xác nhận</string>
+    <string name="masach">Mã sách</string>
+    <string name="tensach">Tên sách</string>
+    <string name="tacgia">Tác giả</string>
+    <string name="soluong">Số lượng</string>
+    <string name="hienthi">Hiển thị</string>
+    <string name="tongquan">Tổng quan</string>
+    <string name="tongtien">Tổng số tiền thu được</string>
+    <string name="tongsosachban">Số lượng sách đã bán</string>
+    <string name="tienchi">Tổng số tiền đã nhập sách</string>
+    <string name="dulieu">Không có dữ liệu</string>
+
+    <string name="chuanhapma">bạn chưa nhập mã</string>
+    <string name="chuanhapgia">Bạn chưa nhập giá</string>
+    <string name="khongduocdetrong">Không được để trống</string>
+    <string name="xuathoadon">Hóa đơn đã được xuất</string>
+    <string name="Themtheloai">Thêm Thể Loại</string>
+    <string name="matheloai">Mã thể loại</string>
+    <string name="tentheloai">tên thể loại</string>
+    <string name="vitritheloai">Vị trí</string>
+    <string name="mota">Mô tả</string>
+    <string name="huy">thoát</string>
+    <string name="sachbanchaynhat">Sách bán chạy nhất</string>
+    <string name="chonngonngu">Chọn ngôn ngữ</string>
+
+
+</resources>

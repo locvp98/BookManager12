@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DangKiActivity">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:text="@string/dangki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+
+            android:id="@+id/imgquaylai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="22dp"
+        android:background="#f9f7f7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="#f9f7f7"
+            android:layout_width="6dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/name" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/gach" />
+
+        <EditText
+            android:id="@+id/edtusenamedk"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f9f7f7"
+            android:hint="@string/tentaikhoan"
+            android:textColor="@color/colorchu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="22dp"
+        android:background="#f9f7f7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="#f9f7f7"
+            android:layout_width="6dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/matkhau" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/gach" />
+
+        <EditText
+            android:id="@+id/edtpassworddk"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f9f7f7"
+            android:hint="@string/matkhau"
+            android:textColor="@color/colorchu" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnlogindk"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:text="@string/dangki"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorchu"
+            android:text="@string/hoidangki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/tvlogindk"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/dangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

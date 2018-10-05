@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".DangNhapActivity">
+
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logodangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/colorchu"
+        android:textStyle="bold"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="22dp"
+        android:background="#f9f7f7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="#f9f7f7"
+            android:layout_width="6dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/name" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/gach" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:id="@+id/edtusename"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f9f7f7"
+            android:hint="@string/tentaikhoan"
+            android:textColor="@color/colorchu" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="22dp"
+        android:background="#f9f7f7"
+        android:orientation="horizontal">
+
+        <TextView
+            android:background="#f9f7f7"
+            android:layout_width="6dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/matkhau" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/gach" />
+
+        <EditText
+            android:imeOptions="actionNext"
+            android:id="@+id/edtpassword"
+            android:layout_marginLeft="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f9f7f7"
+            android:hint="@string/matkhau"
+            android:textColor="@color/colorchu" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:text="@string/dangnhap"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/forgotpassword"
+            android:textSize="16dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp"
+            android:text="@string/quenmatkhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/register"
+            android:textSize="16dp"
+            android:layout_marginRight="25dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="25dp"
+            android:text="@string/dangki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>
